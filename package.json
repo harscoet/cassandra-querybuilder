@@ -1,6 +1,6 @@
 {
   "name": "cassandra-querybuilder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple querybuilder for Apache Cassandra Node.js driver",
   "repository": "https://github.com/harscoet/cassandra-querybuilder",
   "author": "Donovan Harscoët",
