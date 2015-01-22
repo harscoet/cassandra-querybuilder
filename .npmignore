@@ -1,0 +1,11 @@
+target
+reports
+test
+.idea
+.git
+.npmignore
+Makefile
+*.iml
+*.ipr
+node_modules
+npm-debug.log

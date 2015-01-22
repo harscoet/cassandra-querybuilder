@@ -1,0 +1,19 @@
+{
+  "name": "cassandra-querybuilder",
+  "description": "A simple querybuilder for Apache Cassandra Node.js driver",
+  "repository": "https://github.com/harscoet/cassandra-querybuilder",
+  "author": "Donovan Harscoët",
+  "keywords": [
+    "cassandra",
+    "cql",
+    "cql3",
+    "datastax",
+    "querybuilder"
+  ],
+  "dependencies": {
+    "node-uuid": "1.4.1"
+  },
+  "devDependencies": {
+    "cassandra-driver": ">= 1.0.2"
+  }
+}
