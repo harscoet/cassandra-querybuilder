@@ -21,6 +21,10 @@ Cassandra.prototype.SelectQuery = function (keyspace, client) {
   return new QueryBuilder(3, keyspace, client || this.client);
 };
 
+Cassandra.prototype.DeleteQuery = function (keyspace, client) {
+  return new QueryBuilder(4, keyspace, client || this.client);
+};
+
 Cassandra.prototype.batch = vargs(function (queries, client, next) {
   client = client || this.client;
 
