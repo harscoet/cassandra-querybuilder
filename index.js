@@ -17,8 +17,8 @@ Cassandra.prototype.UpdateQuery = function (keyspace, client) {
   return new QueryBuilder(2, keyspace, client || this.client);
 };
 
-Cassandra.prototype.SelectQuery = function (keyspace, client) {
-  return new QueryBuilder(3, keyspace, client || this.client);
+Cassandra.prototype.SelectQuery = function (keyspace, client, consistency) {
+  return new QueryBuilder(3, keyspace, client || this.client, consistency);
 };
 
 Cassandra.prototype.DeleteQuery = function (keyspace, client) {
